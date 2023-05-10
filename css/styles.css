@@ -1,2 +1,20 @@
-body font-family: 'Raleway', sans-serif;
-body font-family: 'Roboto', sans-serif;
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.secondary-font {
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --brand-color-blue: #2196F3;
+}
+
+
+.web-color {
+    color: var(--brand-color-blue);
+}
+
+
+
+
