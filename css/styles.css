@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif; 
+    color:#212121;
 }
 
 .secondary-font {
@@ -8,13 +9,108 @@ body {
 
 :root {
     --brand-color-blue: #2196F3;
+    --brand-color-grey: #757575;
+    --white-tekst:#fff;
+    --background-dark:#2F303A;
+    --background-light:#F5F4FA;
+    
 }
-
 
 .web-color {
     color: var(--brand-color-blue);
 }
 
-s
+a{
+    text-decoration: inherit;
+    color:inherit;
+}
+
+address{
+    font-style: normal;
+}
+
+a:hover, a:focus {
+    color: var(--brand-color-blue);
+}
+
+button:focus, button:hover {
+    background-color: var(--brand-color-blue);
+    color: var(--white-tekst)
+}
+
+button{
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navigation li{
+    font-weight: 500;
+    font-size 24px;
+}
+.font-size-webstudio{
+    font-size: 26px;
+}
+.contact-navi{
+font-weight: 500;
+font-size: 14px;
+color: var(--brand-color-grey);
+}
+
+.contact-footer li{
+    font-size: 14px;
+    line-height: 1.7;
+}
+.transparent-text{
+    opacity: 0.6;
+}
+
+.background-dark{
+    background-color: var(--background-dark);
+}
+.background-light{
+    background-color: var(--background-light);
+}
+.white-text{
+    color: var(--white-tekst);
+}
+
+h1{
+    font-size: 44px;
+    font-weight: 900;
+    color:var(--white-tekst);
+}
+
+h2{
+    font-weight: 700;
+    font-size: 36px;
+}
 
 
+strong{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.second-section-description{
+    font-size: 14px;
+    line-height: 1.7;
+
+}
+.third-section ul{
+    font-size: 16px
+}
+.medium-name{
+    font-weight: 500;
+}
+
+.test li {
+    background-color: var(--white-tekst)
+}
+
+.portfolio-font{
+    font-size: 18px;
+}
+.portfolio-bold-font{
+    font-weight: 700;
+}
